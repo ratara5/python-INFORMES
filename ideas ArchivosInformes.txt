@@ -1,0 +1,5 @@
+Se requiere que tomemos los nombres de los publicadores desde un mismo lugar
+
+ejecutable python donde están los documentos de asignaciones
+
+publicadores desde lista, lista desde BD

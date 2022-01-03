@@ -1,0 +1,24 @@
+13/09/2021
+Crear marco datos con todos los miembros que hayan estado en cada grupo. Esto es: combinar los df por Hoja. Se está usando python 3.8
+
+15/09/2021
+Se instala pandas 3.5.2
+Se usa py -3.5 -m pip install pandas
+Con la intención de que haya comptabilidad con pyPDF2
+Pero, se obtiene el problema en consola:
+'UnicodeEncodeError: 'charmap' codec can't encode character '\u0303' in position 511: character maps to <undefined>' 
+problema que se atribuye a Windows. Se sugiere Hacer cambios en registros Windows para solucionar el problema,
+pero esto puede afectar el funcionamiento de Windows.
+Se retorna a pandas 3.8
+PROX: Librería imprimir df pa' que se vean mejor presentados
+Instalar y usar tabula-py
+	https://medium.com/analytics-vidhya/how-to-extract-multiple-tables-from-a-pdf-through-python-and-tabula-py-6f642a9ee673
+	https://tabula-py.readthedocs.io/en/latest/tabula.html
+La fuentes del pdf no se pueden mapear, pues no son reconocidas
+
+23/09/2021
+Probar generar fdf con python (ERROR método write recibe string no bytes) y luego llenar pdf con el contenido del fdf a traves de pdftk
+en la terminal
+
+https://www.iteramos.com/pregunta/41884/como-puedo-auto-rellenar-un-formulario-pdf-en-djangopython
+https://www.moldeointeractive.com.ar/blog/moldeo-interactive-1/post/completando-formularios-pdf-de-forma-automatica-en-odoo-970
